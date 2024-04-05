@@ -30,6 +30,7 @@ namespace Donkey_Kong_rip_Off
                     if (X + 35 < GameScreen.width)
                     {
                         X += speed;
+                        GameScreen.facerRight = true;
                     }
                     else
                     {
@@ -40,6 +41,7 @@ namespace Donkey_Kong_rip_Off
                     if (X > 5)
                     {
                         X -= speed;
+                        GameScreen.facerRight = false;
                     }
                     else
                     {
@@ -98,9 +100,19 @@ namespace Donkey_Kong_rip_Off
             }
         }
 
-        public bool Collision(Rectangle r)
+        public bool Collision(Rectangle r, string obj)
         {
-            Rectangle player = new Rectangle(X, Y + 29, size, 1);
+            Rectangle player;
+
+            if (obj == "b" || obj == "h")
+            {
+                player = new Rectangle(X, Y, size, size);
+            }
+            else
+            {
+                player = new Rectangle(X, Y + 29, size, 1);
+            }
+
 
             if (player.IntersectsWith(r))
             {

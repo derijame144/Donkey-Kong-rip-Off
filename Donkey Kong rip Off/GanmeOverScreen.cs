@@ -10,18 +10,16 @@ using System.Windows.Forms;
 
 namespace Donkey_Kong_rip_Off
 {
-    public partial class MenuScreen : UserControl
+    public partial class GanmeOverScreen : UserControl
     {
-
         bool play = true;
 
-        public MenuScreen()
+        public GanmeOverScreen()
         {
             InitializeComponent();
-
         }
 
-        private void MenuScreen_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
+        private void GanmeOverScreen_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
         {
             switch (e.KeyCode)
             {
@@ -65,7 +63,7 @@ namespace Donkey_Kong_rip_Off
                     }
                     Refresh();
                     break;
-              
+
             }
         }
     }

@@ -154,6 +154,21 @@
   <data name="Climb5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Climb5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Death1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Death1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Death2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Death2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Death3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Death3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Death4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Death4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Death5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Death5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="D_Idle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\D_Idle1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -172,8 +187,17 @@
   <data name="Grab3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Grab3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Hammer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hammer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="L_Idle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\L_Idle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L_IdleH1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L_IdleH1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L_IdleH2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L_IdleH2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="L_Jump" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\L_Jump.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,11 +205,29 @@
   <data name="L_Walk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\L_Walk1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="L_Walk1HD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L_Walk1HD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L_Walk1HU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L_Walk1HU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="L_Walk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\L_Walk2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="L_Walk2HD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L_Walk2HD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L_Walk2HU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L_Walk2HU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="R_Idle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\R_Idle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R_IdleH1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R_IdleH1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R_IdleH2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R_IdleH2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="R_Jump" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\R_Jump.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,7 +235,19 @@
   <data name="R_Walk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\R_Walk1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="R_Walk1HD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R_Walk1HD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R_Walk1HU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R_Walk1HU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="R_Walk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\R_Walk2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R_Walk2HD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R_Walk2HD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R_Walk2HU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R_Walk2HU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

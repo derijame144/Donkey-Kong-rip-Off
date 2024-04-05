@@ -60,6 +60,12 @@
     <Compile Include="GameScreen.Designer.cs">
       <DependentUpon>GameScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="GanmeOverScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GanmeOverScreen.Designer.cs">
+      <DependentUpon>GanmeOverScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GameScreen.resx">
       <DependentUpon>GameScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GanmeOverScreen.resx">
+      <DependentUpon>GanmeOverScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuScreen.resx">
       <DependentUpon>MenuScreen.cs</DependentUpon>
@@ -178,6 +187,60 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\BL2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Death1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Death2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Death3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Death4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Death5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hammer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L_IdleH1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L_IdleH2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L_Walk1HD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L_Walk1HU.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L_Walk2HD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L_Walk2HU.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R_IdleH1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R_IdleH2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R_Walk1HD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R_Walk1HU.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R_Walk2HD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R_Walk2HU.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

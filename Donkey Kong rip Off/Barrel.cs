@@ -11,7 +11,7 @@ namespace Donkey_Kong_rip_Off
     {
         public Rectangle rectangle;
         public int speed = -3;
-        public int size = 25;
+        public int size = 20;
         public int spriteNumber = 0;
 
         public Image currentSprite;
@@ -20,7 +20,7 @@ namespace Donkey_Kong_rip_Off
         public bool touchingLadder = false;
         public Barrel()
         {
-            rectangle = new Rectangle(267, 123, size, size);
+            rectangle = new Rectangle(310, 123, size, size);
             
         }
 
@@ -30,7 +30,7 @@ namespace Donkey_Kong_rip_Off
 
             if (rectangle.X < 0 || rectangle.X > GameScreen.width - size)
             {
-                if (rectangle.Y < 552)
+                if (rectangle.IntersectsWith(GameScreen.end) == false)
                 {
                     speed *= -1;
                 }

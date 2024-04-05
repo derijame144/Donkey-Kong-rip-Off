@@ -15,12 +15,15 @@ namespace Donkey_Kong_rip_Off
 
         public static List<Image> rWalkSprites = new List<Image>();
         public static List<Image> lWalkSprites = new List<Image>();
+        public static List<Image> lhIDLE = new List<Image>();
+        public static List<Image> rhIDLE = new List<Image>();
         public static List<Image> climb1Sprites = new List<Image>();
         public static List<Image> climb2Sprites = new List<Image>();
         public static List<Image> dkIdle = new List<Image>();
         public static List<Image> barrelThrow = new List<Image>();
         public static List<Image> rollingLadder = new List<Image>();
         public static List<Image> rolling = new List<Image>();
+        public static List<Image> death = new List<Image>();
         public Form1()
         {
             InitializeComponent();
@@ -162,24 +165,67 @@ namespace Donkey_Kong_rip_Off
             rollingLadder.Add(Properties.Resources.BL2);
             #endregion
 
+            #region dying sprites 
+            death.Add(Properties.Resources.Death1);
+            death.Add(Properties.Resources.Death1);
+            death.Add(Properties.Resources.Death1);
+            death.Add(Properties.Resources.Death2);
+            death.Add(Properties.Resources.Death2);
+            death.Add(Properties.Resources.Death2);
+            death.Add(Properties.Resources.Death3);
+            death.Add(Properties.Resources.Death3);
+            death.Add(Properties.Resources.Death3);
+            death.Add(Properties.Resources.Death4);
+            death.Add(Properties.Resources.Death4);
+            death.Add(Properties.Resources.Death4);
+            #endregion
+
+            #region L hammer Idle
+            lhIDLE.Add(Properties.Resources.L_IdleH1);
+            lhIDLE.Add(Properties.Resources.L_IdleH1);
+            lhIDLE.Add(Properties.Resources.L_IdleH1);
+            lhIDLE.Add(Properties.Resources.L_IdleH1);
+            lhIDLE.Add(Properties.Resources.L_IdleH1);
+            lhIDLE.Add(Properties.Resources.L_IdleH1);
+            lhIDLE.Add(Properties.Resources.L_IdleH2);
+            lhIDLE.Add(Properties.Resources.L_IdleH2);
+            lhIDLE.Add(Properties.Resources.L_IdleH2);
+            lhIDLE.Add(Properties.Resources.L_IdleH2);
+            lhIDLE.Add(Properties.Resources.L_IdleH2);
+            lhIDLE.Add(Properties.Resources.L_IdleH2);
+            #endregion
+
+            #region R hammer Idle
+            rhIDLE.Add(Properties.Resources.R_IdleH1);
+            rhIDLE.Add(Properties.Resources.R_IdleH1);
+            rhIDLE.Add(Properties.Resources.R_IdleH1);
+            rhIDLE.Add(Properties.Resources.R_IdleH1);
+            rhIDLE.Add(Properties.Resources.R_IdleH1);
+            rhIDLE.Add(Properties.Resources.R_IdleH1);
+            rhIDLE.Add(Properties.Resources.R_IdleH2);
+            rhIDLE.Add(Properties.Resources.R_IdleH2);
+            rhIDLE.Add(Properties.Resources.R_IdleH2);
+            rhIDLE.Add(Properties.Resources.R_IdleH2);
+            rhIDLE.Add(Properties.Resources.R_IdleH2);
+            rhIDLE.Add(Properties.Resources.R_IdleH2);
+            #endregion
         }
 
         public static void ChangeScreen(object sender, UserControl next)
         {
-            Form f; 
+            Form f;
 
             if (sender is Form)
             {
-                f = (Form)sender;                        
+                f = (Form)sender;
             }
             else
             {
-                UserControl current = (UserControl)sender;  
-                f = current.FindForm();                     
-                f.Controls.Remove(current);                 
+                UserControl current = (UserControl)sender;
+                f = current.FindForm();
+                f.Controls.Remove(current);
             }
 
-            // add the new UserControl to the middle of the screen and focus on it
             next.Location = new Point((f.ClientSize.Width - next.Width) / 2,
                 (f.ClientSize.Height - next.Height) / 2);
             f.Controls.Add(next);
@@ -188,7 +234,7 @@ namespace Donkey_Kong_rip_Off
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            ChangeScreen(this, new GameScreen());
+            ChangeScreen(this, new MenuScreen());
         }
     }
 }

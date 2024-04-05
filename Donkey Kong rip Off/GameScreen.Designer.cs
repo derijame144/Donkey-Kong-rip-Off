@@ -42,6 +42,7 @@
             // testLabel
             // 
             this.testLabel.AutoSize = true;
+            this.testLabel.BackColor = System.Drawing.Color.Transparent;
             this.testLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.testLabel.ForeColor = System.Drawing.SystemColors.Control;
             this.testLabel.Location = new System.Drawing.Point(25, 26);
@@ -58,7 +59,7 @@
             this.BackColor = System.Drawing.Color.Black;
             this.Controls.Add(this.testLabel);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "GameScreen";
             this.Size = new System.Drawing.Size(926, 1146);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.GameScreen_Paint);
